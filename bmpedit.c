@@ -21,7 +21,7 @@ unsigned char data[] = {0x42, 0x4D,                 //BMP ding
 
 int main() {
     FILE * fp;  //bereidt het bestand voor
-    fp = fopen("foto.bmp", "w+");
+    fp = fopen("foto.bmp", "a+");
 
     printf("Bitmap breedte?\n");
     scanf("%d", &invoerbuffer);
